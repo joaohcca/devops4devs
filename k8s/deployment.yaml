@@ -60,8 +60,18 @@ spec:
                 value: "newsuser"
               - name: DB_PASSWORD
                 value: "newspwd"
-              - name: DB_HOST 
+              - name: DB_HOST
                 value:  "postgres"
+              - name: AWS_ACCESS_KEY
+                value: mykey
+              - name: AWS_ACCESS_SECRET
+                value: mysecret
+              - name: AWS_REGION
+                value: us-east-1
+              - name: STORAGE_TYPE
+                value: S3
+              - name: AWS_S3_BUCKET_NAME
+                value: "myappbucket"
 ---
 apiVersion: v1
 kind: Service
