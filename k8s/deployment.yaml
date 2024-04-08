@@ -63,9 +63,9 @@ spec:
               - name: DB_HOST
                 value:  "postgres"
               - name: AWS_ACCESS_KEY
-                value: mykey
+                value: {{AWS_ACESS_KEY}}
               - name: AWS_ACCESS_SECRET
-                value: mysecret
+                value: {{AWS_SECRET_kEY}}
               - name: AWS_REGION
                 value: us-east-1
               - name: STORAGE_TYPE
